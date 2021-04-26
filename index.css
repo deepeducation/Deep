@@ -7,7 +7,7 @@
   }
   
   .container_Q {  
-    padding: 10px 20px 20px 20px;
+    padding: 20px;
     line-height: 1.6;
     font-size: 16px;
     border-radius: 5px 5px 0 0;
@@ -15,14 +15,7 @@
     background-color: #dfecf9;
   }
 
-  .container_Q h3{  
-    line-height: 2;
-    font-size: 16px;
-    border-radius: 5px 5px 0 0;
-    color:#000;
-    background-color: #dfecf9;
-  }
-  
+ 
   .container_Op {
     padding: 20px;
     font-size: 16px;
