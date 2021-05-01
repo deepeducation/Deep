@@ -17,7 +17,7 @@
       else
       {
        right++
-       document.getElementById('answer_'+question).innerHTML="&#9989; Ans: "+answer[question]+" is Correct";
+       document.getElementById('answer_'+question).innerHTML="<i class="fa fa-check" style="font-size:30px;"></i> Ans: "+answer[question]+" is Correct";
        document.getElementById('answer_'+question).style.color="green";
      document.getElementById(question+''+answerwer).style.color="green";
        document.getElementById('answer_'+question).style.fontWeight="bold";
@@ -39,7 +39,7 @@
      }
      function result()
      {
-    document.getElementById('right').innerHTML= '<i class="fa fa-check" style="font-size:36px;"></i> Right : ' +right+ '/' +total;
+    document.getElementById('right').innerHTML= '<i class="fa fa-check" style="font-size:30px;"></i> Right : ' +right+ '/' +total;
       document.getElementById('right').style.fontWeight="bold";
       document.getElementById('right').style.color="green";
     document.getElementById('wrong').innerHTML= '&#10060; Wrong: ' +wrong+ '/' +total;
