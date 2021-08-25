@@ -1,13 +1,13 @@
   .card {
     
     transition: 0.3s;
+    border: 1px solid rgb(230,230,230);
     border-radius: 5px;
-    box-shadow: 0px 1px 2px 1px rgb(26, 39, 53);
     font-family:Verdana, Arial, Helvetica, sans-serif;
   }
   
   .container_Q {  
-    padding: 20px;
+    padding: 12px;
     line-height: 1.6;
     font-size: 16px;
     border-radius: 5px 5px 0 0;
@@ -18,14 +18,14 @@
 
  
   .container_Op {
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
     background-color: #ffffff;
     border-radius: 0 0 5px 5px;
   }
   
   .container_R {
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -60,7 +60,7 @@
   }
   input[type=radio] + label {
       display:inline-block;
-    width:95%;
+    width:100%;
     padding:10px;
     border:1px solid #ddd;
     margin-bottom:10px;
