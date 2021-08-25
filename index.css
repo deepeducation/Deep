@@ -1,7 +1,7 @@
   .card {
     
     transition: 0.3s;
-    border: 1px solid rgb(190, 190, 190);
+    border: 1px solid rgb(70, 70, 70);
     border-radius: 5px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
   }
