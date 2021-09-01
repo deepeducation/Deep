@@ -12,18 +12,18 @@
     font-size: 16px;
     border-radius: 5px 5px 0 0;
     background-color: #1bbc9b14;
-    border-left: 5px solid #1bbc9b;
+    border-bottom: 1px solid #4b6b8a;
   }
 
  
   .container_Op {
-    padding: 15px;
+    padding: 12px;
     font-size: 16px;
     border-radius: 0 0 5px 5px;
   }
   
   .container_R {
-    padding: 15px;
+    padding: 12px;
     font-size: 16px;
     background-color: #ffffff;
     border-radius: 5px;
