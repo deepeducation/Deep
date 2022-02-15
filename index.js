@@ -10,7 +10,7 @@ function calc(question, answerwer)
    wrong++
      document.getElementById('answer_'+question).innerHTML="&#10060; Wrong!! Correct Ans: "+answer[question]; 
      document.getElementById('answer_'+question).style.color="red";
-   document.getElementById(question+''+answerwer).style.color="red";
+     document.getElementById(question+''+answerwer).style.color="red";
      document.getElementById('answer_'+question).style.fontWeight="bold";
    
    }
