@@ -19,7 +19,7 @@ function calc(question, answerwer)
     right++
     document.getElementById('answer_'+question).innerHTML='<i class="fa fa-check" style="font-size:24px;"></i> Ans: '+answer[question]+' is Correct';
     document.getElementById('answer_'+question).style.color="green";
-  document.getElementById(question+''+answerwer).style.color="green";
+    document.getElementById(question+''+answerwer).style.color="green";
     document.getElementById('answer_'+question).style.fontWeight="bold";
   
    }
